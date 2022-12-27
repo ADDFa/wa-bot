@@ -1,0 +1,93 @@
+[
+    {
+        "alamat": [
+            "Tuan Saya Saat Ini Bertempat Tinggal Di ",
+            "Perumahan Medan Baru ",
+            "RT. 13 Blok B ",
+            "Kost Samping Lapangan Voly ",
+            "Bedengan 2 Pintu Warna abu-abu."
+        ]
+    },
+
+    {
+        "pekerjaan": [
+            "Saat Ini Tuan Saya Sedang Berkuliah ",
+            "Di Universitas Bengkulu, ",
+            "Fakultas Teknik Program Studi Informatika.\n\n",
+            "Universitas Bengkulu Sendiri Terletak Di ",
+            "Negara Indonesia ",
+            "Provinsi Bengkulu, Kota Bengkulu."
+        ]
+    },
+
+    {
+        "skill": [
+            "Tuan Saya Adalah Seorang Developer.\n",
+            "Untuk Dibidang Developer Sendiri, ",
+            "Tuan Saya Menguasai Beberapa Hal Berikut :\n",
+            "1. Bahasa Pemrograman :\n",
+            "\t - Javascript\n",
+            "\t - PHP\n",
+            "2. Framework :\n",
+            "\tCSS Framework :\n",
+            "\t - Bootstrap \n",
+            "\t - Tailwind \n",
+            "\tBackend Framework :\n",
+            "\t - Laravel\n",
+            "\t - Codeigniter\n",
+            "3. Tools :\n",
+            "\t - SASS\n",
+            "\t - CSS\n",
+            "\t - HTML\n",
+            "\t - React\n",
+            "\t - Node JS\n"
+        ]
+    },
+
+    {
+        "tentang": [
+            "Tuan Saya Berkata Tentang Dirinya :\n",
+            "\t\tHallo, Nama Saya Adha Dont Differatama, ",
+            "Saya Adalah Mahasiswa Universitas Bengkulu, ",
+            "Program Studi Informatika | Fakultas Teknik.\n",
+            "Di Universitas Bengkulu, Saya Adalah ",
+            "Mahasiswa Angkatan 2019, Saya Diterima Melalui Jalur SBMPTN.\n",
+            "Saat Ini Saya Sedang Berada Di Semester 7 dan Akan Masuk ",
+            "Semester 8 Pada Januari 2023 Mendatang.\n",
+            "Di Program Studi Informatika, Saya Sangat Bersyukur, ",
+            "Karena Saya Dikelilingi Sangat Beragam Orang Yang ",
+            "Sangat Banyak Membantu Saya, Sangat Banyak Kesalahan Yang ",
+            "Saya Lakukan Selama Ini. Tapi, Itu Membantu Untuk ",
+            "Menjadikan Saya Seseorang Yang Lebih Baik.\n\n",
+            "Di Semester Kemarin (Semester 6), Saya Telah Melakukan ",
+            "Salah Satu Kegiatan Wajib Dari Universitas. Yaitu KKN ",
+            "(Kuliah Kerja Nyata). Sungguh Banyak Pengalaman Yang ",
+            "Saya Dapatkan Dari Sini.\n",
+            "Baik Pengalaman Baik Ataupun Buruk, Ataupun Bahkan Pengalaman ",
+            "Yang Membuat Saya Merasa Seperti Orang Bodoh. Tapi Saya ",
+            "Bertrimakasih Untuk Semua Itu.\n\n",
+            "No one captures it with complete perfection."
+        ]
+    },
+
+    {
+        "list": [
+            "Berikut Beberapa Hal Yang Dapat Saya Jawab\n",
+            "asisten: alamat -> Alamat Tuan Saya Saat Ini\n",
+            "asisten: pekerjaan -> Pekerjaan Tuan Saya\n",
+            "asisten: skill -> Keahlian Tuan Saya Dibidang Programming\n",
+            "asisten: tentang -> Tentang Tuan Saya"
+        ]
+    },
+
+    {
+        "unknown": [
+            "Maaf, Saya Tidak Bisa Menjawab",
+            "Pertanyaan Tersebut.",
+            "Tuan Saya Tidak Mengizinkan Saya",
+            "Menjawab Pertanyaan Tersebut.",
+            "Silahkan Tunggu Saja Pesan Dari Tuan Saya",
+            "Terimakasih"
+        ]
+    }
+]
