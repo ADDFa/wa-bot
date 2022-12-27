@@ -5,7 +5,7 @@ const { isBot } = require('./src/message')
 const { writeUrl } = require('./src/qrUrl')
 
 const client = new waWeb.Client({
-    // authStrategy: new waWeb.LocalAuth({ clientId: 'client-one' })
+    authStrategy: new waWeb.LocalAuth({ clientId: 'client-one' })
 })
 
 client.on('qr', async qr => {
