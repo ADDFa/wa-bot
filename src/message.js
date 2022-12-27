@@ -16,7 +16,7 @@ const isBot = message => {
     if (!isAsistant) return false
 
     // ambil balasan jika merupakan asisten bot
-    return getReply(messages[1].trim())
+    return getReply(messages[1].match(/[a-z]+/g).join(' '))
 }
 
 // message => asisten: <<< name >>>

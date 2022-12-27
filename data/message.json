@@ -113,12 +113,12 @@
 
     {
         "unknown": [
-            "Maaf, Saya Tidak Bisa Menjawab",
-            "Pertanyaan Tersebut.",
-            "Tuan Saya Tidak Mengizinkan Saya",
-            "Menjawab Pertanyaan Tersebut.",
-            "Silahkan Tunggu Saja Pesan Dari Tuan Saya",
-            "Terimakasih"
+            "Maaf, Saya Tidak Bisa Menjawab ",
+            "Pertanyaan Tersebut. ",
+            "Tuan Saya Tidak Mengizinkan Saya ",
+            "Menjawab Pertanyaan Tersebut. ",
+            "Silahkan Tunggu Saja Pesan Dari Tuan Saya\n",
+            "Terimakasih :)"
         ]
     }
 ]
