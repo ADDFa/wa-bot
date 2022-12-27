@@ -11,7 +11,7 @@ const client = new waWeb.Client({
     }
 })
 
-client.on('qr', qr => {
+client.on('qr', async qr => {
     const urlQr = await qrcode.toDataURL(qr)
     writeUrl(urlQr)
 })
