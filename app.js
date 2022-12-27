@@ -11,7 +11,8 @@ const client = new waWeb.Client({
 })
 
 client.on('qr', qr => {
-    qrTerminal.generate(qr, { small: true })
+    // qrTerminal.generate(qr, { small: true })
+  console.log(qr)
 })
 
 client.on('ready', () => console.log('Client Is Ready!'))
