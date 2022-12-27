@@ -18,4 +18,9 @@ client.on('message', message => {
     if (replying) message.reply(replying)
 })
 
+client.on('message_create', message => {
+    const replying = isBot(message.body)
+    if (replying) message.reply(replying)
+})
+
 client.initialize()

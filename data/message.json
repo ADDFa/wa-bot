@@ -71,12 +71,43 @@
     },
 
     {
+        "kapan skripsi": [
+            "In Shaa Allah\n",
+            "Semester Depan yo."
+        ]
+    },
+
+    {
+        "kenapa saya jomblo": [
+            "Mohon Bersabar, \n",
+            "Jomblo Juga Bisa Bahagia.\n\n",
+            "keep - smile"
+        ]
+    },
+
+    {
+        "kenapa tuan anda jomblo": [
+            "Sudah Dari Sononye"
+        ]
+    },
+
+    {
+        "apakah tuan anda sehat": [
+            "Alhamdulillah, masih bernafas."
+        ]
+    },
+
+    {
         "list": [
             "Berikut Beberapa Hal Yang Dapat Saya Jawab\n",
             "asisten: alamat -> Alamat Tuan Saya Saat Ini\n",
             "asisten: pekerjaan -> Pekerjaan Tuan Saya\n",
             "asisten: skill -> Keahlian Tuan Saya Dibidang Programming\n",
-            "asisten: tentang -> Tentang Tuan Saya"
+            "asisten: tentang -> Tentang Tuan Saya\n",
+            "asisten: kapan skripsi\n",
+            "asisten: kenapa saya jomblo\n",
+            "asisten: kenapa tuan anda jomblo\n",
+            "asisten: apakah tuan anda sehat\n"
         ]
     },
 
