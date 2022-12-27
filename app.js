@@ -4,7 +4,10 @@ const qrTerminal = require('qrcode-terminal')
 const { isBot } = require('./src/message')
 
 const client = new waWeb.Client({
-    authStrategy: new waWeb.LocalAuth({ clientId: 'client-one' })
+    authStrategy: new waWeb.LocalAuth({ clientId: 'client-one' }),
+    puppeteer: {
+      args: ['--no-sandbox'],
+    }
 })
 
 client.on('qr', qr => {
