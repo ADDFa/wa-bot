@@ -20,14 +20,14 @@ client.on("qr", async (qr) => {
 
 client.on("ready", () => console.log("Client Is Ready!"));
 
-// client.on('message', message => {
-//     const replying = isBot(message.body)
-//     if (replying) message.reply(replying)
-// })
+client.on('message', message => {
+    const replying = isBot(message.body)
+    if (replying) message.reply(replying)
+})
 
-client.on("message_create", (message) => {
-  const replying = isBot(message.body);
-  if (replying) message.reply(replying);
-});
+// client.on("message_create", (message) => {
+//   const replying = isBot(message.body);
+//   if (replying) message.reply(replying);
+// });
 
 client.initialize();
