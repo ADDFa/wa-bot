@@ -1,14 +1,16 @@
 const waWeb = require('whatsapp-web.js')
-const qrTerminal = require('qrcode-terminal')
+const qrcode = require('qrcode')
 
 const { isBot } = require('./src/message')
+const { writeUrl } = require('./src/qrUrl')
 
 const client = new waWeb.Client({
-    authStrategy: new waWeb.LocalAuth({ clientId: 'client-one' })
+    // authStrategy: new waWeb.LocalAuth({ clientId: 'client-one' })
 })
 
-client.on('qr', qr => {
-    qrTerminal.generate(qr, { small: true })
+client.on('qr', async qr => {
+    const urlQr = await qrcode.toDataURL(qr)
+    writeUrl(urlQr)
 })
 
 client.on('ready', () => console.log('Client Is Ready!'))
