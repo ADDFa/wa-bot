@@ -1,16 +1,41 @@
 const fs = require('fs')
+const { Location } = require('whatsapp-web.js')
+
+const dataMessage = (messageText, useThanks) => {
+    const replys = JSON.parse(fs.readFileSync('./data/message.json', 'utf-8'))
+    const emojis = JSON.parse(fs.readFileSync('./data/emoji.json', 'utf-8'))
+
+    const unknown = replys.find(e => e['unknown']).unknown
+    const thanks = replys.find(e => e['thanks']).thanks
+    const botEmoji = emojis.find(e => e['bot']).bot
+
+    const issetReply = replys.find(e => e[messageText])
+
+    let reply = useThanks ? [...botEmoji, ...thanks] : [...botEmoji]
+
+    return issetReply ? [...reply, ...issetReply[messageText]].join('') : [...reply, ...unknown].join('')
+}
+
+const dataLocation = location => {
+    const locations = [
+        'kost'
+    ]
+
+    const dataLocations = JSON.parse(fs.readFileSync('./data/location.json', 'utf-8'))
+
+    let result = locations.find(e => location.match(e))
+
+    if (!result) return dataMessage('')
+    result = dataLocations[result]
+
+    return new Location(result.latitude, result.longitude, result.description)
+}
 
 const getReply = (message, useThanks = true) => {
-    const validMsg = message.match(/[a-z]+/g).join(' ')
+    const validMessage = message.match(/[a-z]+/g).join(' ')
+    const isLocation = /lokasi/.test(validMessage)
 
-    const replys = JSON.parse(fs.readFileSync('./data/message.json', 'utf-8'))
-    const issetReply = replys.find(e => e[validMsg])
-
-    const reply = (issetReply) ? issetReply[validMsg] : replys.find(e => e['unknown']).unknown
-
-    if (useThanks) return `Terimakasih Atas Pertanyaan Anda\n\n${reply.join('')}`
-
-    return reply.join('')
+    return isLocation ? dataLocation(validMessage) : dataMessage(validMessage, useThanks)
 }
 
 const isBot = message => {

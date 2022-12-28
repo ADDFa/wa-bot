@@ -78,36 +78,13 @@
     },
 
     {
-        "kenapa saya jomblo": [
-            "Mohon Bersabar, \n",
-            "Jomblo Juga Bisa Bahagia.\n\n",
-            "keep - smile"
-        ]
-    },
-
-    {
-        "kenapa tuan anda jomblo": [
-            "Sudah Dari Sononye"
-        ]
-    },
-
-    {
-        "apakah tuan anda sehat": [
-            "Alhamdulillah, masih bernafas."
-        ]
-    },
-
-    {
         "list": [
             "Berikut Beberapa Hal Yang Dapat Saya Jawab\n",
             "asisten: alamat -> Alamat Tuan Saya Saat Ini\n",
             "asisten: pekerjaan -> Pekerjaan Tuan Saya\n",
             "asisten: skill -> Keahlian Tuan Saya Dibidang Programming\n",
             "asisten: tentang -> Tentang Tuan Saya\n",
-            "asisten: kapan skripsi\n",
-            "asisten: kenapa saya jomblo\n",
-            "asisten: kenapa tuan anda jomblo\n",
-            "asisten: apakah tuan anda sehat\n"
+            "asisten: kapan skripsi\n"
         ]
     },
 
@@ -118,16 +95,22 @@
             "Tuan Saya Tidak Mengizinkan Saya ",
             "Menjawab Pertanyaan Tersebut. ",
             "Silahkan Tunggu Saja Pesan Dari Tuan Saya\n",
-            "Terimakasih :)"
+            "Terimakasih ☺️"
         ]
     },
 
     {
         "bot": [
-            "Hallo, Saya Asisten Adha, ",
+            "*Hallo*, Saya Asisten Adha, ",
             "Saat Ini Tuan Saya Belum Dapat Menjawab Pesan.\n",
             "Namun, jika ada pertanyaan anda yang familiar, ",
             "saya dapat menjawabnya. \n\n"
+        ]
+    },
+
+    {
+        "thanks": [
+            "Terimakasih Atas Pertanyaan Anda\n\n"
         ]
     }
 ]
