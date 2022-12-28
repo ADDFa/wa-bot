@@ -120,5 +120,14 @@
             "Silahkan Tunggu Saja Pesan Dari Tuan Saya\n",
             "Terimakasih :)"
         ]
+    },
+
+    {
+        "bot": [
+            "Hallo, Saya Asisten Adha, ",
+            "Saat Ini Tuan Saya Belum Dapat Menjawab Pesan.\n",
+            "Namun, jika ada pertanyaan anda yang familiar, ",
+            "saya dapat menjawabnya. \n\n"
+        ]
     }
 ]
